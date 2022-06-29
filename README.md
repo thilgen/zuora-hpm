@@ -17,6 +17,10 @@ ZUORA_ACCOUNT_ID='<Zuora Account ID GUID>'
 ZUORA_HPM_PAGE_ID='<Zuora HPM ID GUID>'
 ZUORA_GATEWAY_NAME='<Gateway Name used by ZUORA_HPM_PAGE_ID>'
 ```
+### Zuora OAuth 
+Generate ZUORA_CLIENT_ID and ZUORA_CLIENT_SECRET on your Profile page in Zuora (found under Administration)
+![Screen Shot 2022-06-29 at 12 25 52 PM](https://user-images.githubusercontent.com/9309340/176519838-304e0343-ba6d-473e-8c5a-c8745ccd149d.png)
+
 ## Usage
 ```sh
 node webapp.js
